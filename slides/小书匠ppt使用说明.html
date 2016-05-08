@@ -1,12 +1,23 @@
-<!DOCTYPE html><html lang="en"><head>
-<title> 小书匠ppt使用说明---小书匠,在线编辑器,MARKDOWN,Evernote,文件版本</title>
+<!DOCTYPE html>
+<html lang="en">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
   <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="()">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<style type="text/css">
-a:focus {
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>小书匠ppt使用说明---小书匠,在线编辑器,MARKDOWN,Evernote,文件版本</title>
+	<script type="text/javascript" src="js/classList.js"></script>
+	<script type="text/javascript" src="js/reveal.js"></script>
+  <link rel="stylesheet" href="css/reveal/reveal.css">
+  <link rel="stylesheet" href="css/reveal/theme/white.css">
+	<style type="text/css">
+		body{
+			height: 100%;
+		}
+		a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -752,55 +763,46 @@ text{
 
 
 
-</style>
-</head><body>
-<div><div class="preview" id="wmd-preview">
-
-	<div class="preview"><h1 class="story_title">小书匠ppt使用示例</h1><div class="story_tags"><div class="tag blue label">小书匠</div><div class="tag blue label"> presentation</div></div><h1 id="e5b08fe4b9a6e58ca0ppte4bdbfe794a8e7a4bae4be8b"><a name="e5b08fe4b9a6e58ca0ppte4bdbfe794a8e7a4bae4be8b"></a>小书匠ppt使用示例</h1>
-<hr>
-<h2 id="e5b9bbe781afe78987"><a name="e5b9bbe781afe78987"></a>幻灯片</h2>
+	</style>
+</head>
+<body onload="Reveal.initialize();">
+	<div class="reveal"><div class="slides">
+			<section class="section_content future"><h1>小书匠ppt使用示例</h1>
+</section><section class="section_content future"><h2>幻灯片</h2>
 <ol>
 <li>
-<h4 id="e5b9bbe781afe78987e8838ce699af"><a name="e5b9bbe781afe78987e8838ce699af"></a>幻灯片背景</h4>
+<h4>幻灯片背景</h4>
 </li>
 <li>
-<h4 id="e6b0b4e5b9b3e5b9bbe781afe78987"><a name="e6b0b4e5b9b3e5b9bbe781afe78987"></a>水平幻灯片</h4>
+<h4>水平幻灯片</h4>
 </li>
 <li>
-<h4 id="e59e82e79bb4e5b9bbe781afe78987"><a name="e59e82e79bb4e5b9bbe781afe78987"></a>垂直幻灯片</h4>
+<h4>垂直幻灯片</h4>
 </li>
 <li>
-<h4 id="e78987e6aeb5"><a name="e78987e6aeb5"></a>片段</h4>
+<h4>片段</h4>
 </li>
 </ol>
-<hr>
-<h3 id="e5b9bbe781afe78987e8838ce699af-1"><a name="e5b9bbe781afe78987e8838ce699af-1"></a>幻灯片背景</h3>
+</section><section class="section_content future"><h3>幻灯片背景</h3>
 <pre class="xiaoshujiang_code_container"><code class="language-html hljs"><span class="hljs-comment">&lt;!-- .slide: data-background="#ff0000" --&gt;</span>
 </code></pre>
 <p>支持颜色，图片，视频做为背景</p>
-<hr>
-<h4 id="e9a29ce889b2e5b9bbe781afe78987e8838ce699af"><a name="e9a29ce889b2e5b9bbe781afe78987e8838ce699af"></a><strong>颜色幻灯片背景</strong></h4>
-<p>--</p>
-<!-- .slide: data-background="img/zen/3.jpg" -->
-<h4 id="e59bbee78987e5b9bbe781afe78987e8838ce699af"><a name="e59bbee78987e5b9bbe781afe78987e8838ce699af"></a><strong>图片幻灯片背景</strong></h4>
-<hr>
-<h3 id="e6b0b4e5b9b3e5b9bbe781afe78987-1"><a name="e6b0b4e5b9b3e5b9bbe781afe78987-1"></a>水平幻灯片</h3>
+</section><section class="future"><section class="section_content future"><h4><strong>颜色幻灯片背景</strong></h4>
+</section><section data-background="img/zen/3.jpg" class="section_content future"><!-- -->
+<h4><strong>图片幻灯片背景</strong></h4>
+</section></section><section class="section_content future"><h3>水平幻灯片</h3>
 <p>语法：</p>
 <pre class="xiaoshujiang_code_container"><code class="nohighlight hljs">----
 </code></pre>
 <p><strong>注意前后都需要空一行</strong></p>
-<hr>
-<h3 id="e59e82e79bb4e5b9bbe781afe78987-1"><a name="e59e82e79bb4e5b9bbe781afe78987-1"></a>垂直幻灯片</h3>
+</section><section class="section_content future"><h3>垂直幻灯片</h3>
 <p>语法：</p>
 <pre class="xiaoshujiang_code_container"><code class="nohighlight hljs">--
 </code></pre>
 <p><strong>注意前后都需要空一行</strong></p>
-<hr>
-<p>垂直幻灯片1</p>
-<p>--</p>
-<p>垂直幻灯片２</p>
-<hr>
-<h3 id="e78987e6aeb5-1"><a name="e78987e6aeb5-1"></a>片段</h3>
+</section><section class="future"><section class="section_content future"><p>垂直幻灯片1</p>
+</section><section class="section_content future"><p>垂直幻灯片２</p>
+</section></section><section class="section_content future"><h3>片段</h3>
 <p>语法:</p>
 <pre class="xiaoshujiang_code_container"><code class="language-html hljs"><span class="hljs-comment">&lt;!-- .element: class="fragment" data-fragment-index="1" --&gt;</span>
 </code></pre>
@@ -808,8 +810,7 @@ text{
 <pre class="xiaoshujiang_code_container"><code class="language-html hljs"><span class="hljs-comment">&lt;!-- .element: class="fragment&gt;&gt;== grow==&lt;&lt;" data-fragment-index="1" --&gt;</span>
 </code></pre>
 <p><code>grow</code>, <code>shrink</code>, <code>roll-in</code>, <code>fade-out</code>, <code>current-visible</code>, <code>highlight-current-blue</code>, <code>highlight-red</code>, <code>highlight-green</code>, <code>highlight-blue</code></p>
-<hr>
-<ol>
+</section><section class="section_content future"><ol>
 <li><p>片段１</p></li>
 <li><p>片段２</p></li>
 <li><p>片段３</p></li>
@@ -822,81 +823,58 @@ text{
 <li><p>片段１０</p></li>
 <li><p>片段１１</p></li>
 </ol>
-<hr>
-<h2 id="e8bdace59cbae58aa8e794bb"><a name="e8bdace59cbae58aa8e794bb"></a>转场动画</h2>
+</section><section class="section_content future"><h2>转场动画</h2>
 <ol>
 <li><p>动画转场</p></li>
 <li><p>转场速度</p></li>
 <li><p>背景动画转场</p></li>
 </ol>
-<hr>
-<h3 id="e58aa8e794bbe8bdace59cba"><a name="e58aa8e794bbe8bdace59cba"></a>动画转场</h3>
+</section><section class="section_content future"><h3>动画转场</h3>
 <pre class="xiaoshujiang_code_container"><code class="language-html hljs"><span class="hljs-comment">&lt;!-- .slide: data-transition="zoom"--&gt;</span>
 </code></pre>
 <p>支持的动画<br>
 <code>none</code>, <code>fade</code>, <code>slide</code>, <code>convex</code>, <code>concave</code>, <code>zoom</code></p>
-<hr>
-<h4 id="e697a0e58aa8e794bbe8bdace59cba"><a name="e697a0e58aa8e794bbe8bdace59cba"></a>无动画转场</h4>
-<p>--</p>
-<!-- .slide: data-transition="fade"-->
-<h4 id="fadee58aa8e794bbe8bdace59cba"><a name="fadee58aa8e794bbe8bdace59cba"></a>fade动画转场</h4>
-<p>--</p>
-<!-- .slide: data-transition="slide" -->
-<h4 id="slidee58aa8e794bbe8bdace59cba"><a name="slidee58aa8e794bbe8bdace59cba"></a>slide动画转场</h4>
-<p>--</p>
-<!-- .slide: data-transition="convex"-->
-<h4 id="convexe58aa8e794bbe8bdace59cba"><a name="convexe58aa8e794bbe8bdace59cba"></a>convex动画转场</h4>
-<p>--</p>
-<!-- .slide: data-transition="concave"-->
-<h4 id="concavee58aa8e794bbe8bdace59cba"><a name="concavee58aa8e794bbe8bdace59cba"></a>concave动画转场</h4>
-<p>--</p>
-<!-- .slide: data-transition="zoom"-->
-<h4 id="zoome58aa8e794bbe8bdace59cba"><a name="zoome58aa8e794bbe8bdace59cba"></a>zoom动画转场</h4>
-<hr>
-<h3 id="e8bdace59cbae9809fe5baa6"><a name="e8bdace59cbae9809fe5baa6"></a>转场速度</h3>
+</section><section class="future"><section class="section_content future"><h4>无动画转场</h4>
+</section><section data-transition="fade" class="section_content future"><!-- -->
+<h4>fade动画转场</h4>
+</section><section data-transition="slide" class="section_content future"><!-- -->
+<h4>slide动画转场</h4>
+</section><section data-transition="convex" class="section_content future"><!-- -->
+<h4>convex动画转场</h4>
+</section><section data-transition="concave" class="section_content future"><!-- -->
+<h4>concave动画转场</h4>
+</section><section data-transition="zoom" class="section_content future"><!-- -->
+<h4>zoom动画转场</h4>
+</section></section><section class="section_content future"><h3>转场速度</h3>
 <pre class="xiaoshujiang_code_container"><code class="language-html hljs"><span class="hljs-comment">&lt;!-- .slide: data-transition-speed="fast"--&gt;</span>
 </code></pre>
 <p>支持的参数有: <code>default</code>, <code>fast</code>, <code>slow</code></p>
-<hr>
-<h4 id="e9bb98e8aea4e8bdace59cbae9809fe5baa6"><a name="e9bb98e8aea4e8bdace59cbae9809fe5baa6"></a>默认转场速度</h4>
-<p>--</p>
-<!-- .slide: data-transition-speed="slow"-->
-<h4 id="slowe8bdace59cbae9809fe5baa6"><a name="slowe8bdace59cbae9809fe5baa6"></a>slow转场速度</h4>
-<p>--</p>
-<!-- .slide: data-transition-speed="fast"-->
-<h4 id="faste8bdace59cbae9809fe5baa6"><a name="faste8bdace59cbae9809fe5baa6"></a>fast转场速度</h4>
-<hr>
-<h3 id="e8838ce699afe58aa8e794bbe8bdace59cba"><a name="e8838ce699afe58aa8e794bbe8bdace59cba"></a>背景动画转场</h3>
+</section><section class="future"><section class="section_content future"><h4>默认转场速度</h4>
+</section><section data-transition-speed="slow" class="section_content future"><!-- -->
+<h4>slow转场速度</h4>
+</section><section data-transition-speed="fast" class="section_content future"><!-- -->
+<h4>fast转场速度</h4>
+</section></section><section class="section_content future"><h3>背景动画转场</h3>
 <pre class="xiaoshujiang_code_container"><code class="language-html hljs"><span class="hljs-comment">&lt;!-- .slide: data-background-transition="zoom"--&gt;</span>
 </code></pre>
 <p>支持的动画<br>
 <code>none</code>, <code>fade</code>, <code>slide</code>, <code>convex</code>, <code>concave</code>, <code>zoom</code></p>
-<hr>
-<h4 id="convexe8838ce699afe58aa8e794bbe8bdace59cba"><a name="convexe8838ce699afe58aa8e794bbe8bdace59cba"></a>convex背景动画转场</h4>
-<p>--</p>
-<!-- .slide: data-background="#4d7e65" data-background-transition="concave"-->
-<h4 id="concavee8838ce699afe58aa8e794bbe8bdace59cba"><a name="concavee8838ce699afe58aa8e794bbe8bdace59cba"></a>concave背景动画转场</h4>
-<p>--</p>
-<!-- .slide: data-background="#4d7e65" data-background-transition="zoom"-->
-<h4 id="zoome8838ce699afe58aa8e794bbe8bdace59cba"><a name="zoome8838ce699afe58aa8e794bbe8bdace59cba"></a>zoom背景动画转场</h4>
-<p>--</p>
-<!-- .slide: data-background="#4d7e65" data-background-transition="slide"-->
-<h4 id="slidee8838ce699afe58aa8e794bbe8bdace59cba"><a name="slidee8838ce699afe58aa8e794bbe8bdace59cba"></a>slide背景动画转场</h4>
-<hr>
-<h4 id="e7bb84e59088e6a8a1e5bc8fe58aa8e794bbe8bdace59cba"><a name="e7bb84e59088e6a8a1e5bc8fe58aa8e794bbe8bdace59cba"></a>组合模式动画转场</h4>
-<p>--</p>
-<!-- .slide: data-background="#ff0000" data-transition="zoom" data-transition-speed="fast"-->
+</section><section class="future"><section class="section_content future"><h4>convex背景动画转场</h4>
+</section><section data-background-transition="concave" data-background="#4d7e65" class="section_content future"><!-- -->
+<h4>concave背景动画转场</h4>
+</section><section data-background-transition="zoom" data-background="#4d7e65" class="section_content future"><!-- -->
+<h4>zoom背景动画转场</h4>
+</section><section data-background-transition="slide" data-background="#4d7e65" class="section_content future"><!-- -->
+<h4>slide背景动画转场</h4>
+</section></section><section class="future"><section class="section_content future"><h4>组合模式动画转场</h4>
+</section><section data-transition-speed="fast" data-transition="zoom" data-background="#ff0000" class="section_content future"><!-- -->
 <p>zoom, fast</p>
-<p>--</p>
-<!-- .slide: data-background="img/zen/3.jpg" data-background-transition="concave" data-transition="slide" data-transition-speed="slow"-->
+</section><section data-transition-speed="slow" data-transition="slide" data-background-transition="concave" data-background="img/zen/3.jpg" class="section_content future"><!-- -->
 <p>concave, slide, slow</p>
-<p>--</p>
-<!-- .slide: data-background="#03c8cb" data-background-transition="fade" data-transition="convex" data-transition-speed="default"-->
+</section><section data-transition-speed="default" data-transition="convex" data-background-transition="fade" data-background="#03c8cb" class="section_content future"><!-- -->
 <p>fade, convex, default</p>
-<hr>
-<p>谢谢观赏</p>
-</div>
-
-</div></div>
-</body></html>
-
+</section></section><section class="section_content future"><p>谢谢观赏</p>
+</section>
+	</div></div>
+</body>
+</html>
